@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/*
- * main - Entry point
- * Description: Get a random number that check if it is postive, negative, or zero
- * then it print the number
- *
- * Return: 0 (success)
+
+/**
+ * main - assign a random number
+ * that check if it is postive, negative, or zero then it print the number'
+ * Return: 0
  */
 int main(void)
 {
