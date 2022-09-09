@@ -2,16 +2,17 @@
 #include <time.h>
 #include <stdlib.h>
 /*
- * main - main block
+ * main - Entry point
  *
  * Return: 0 (success)
  */
 int main(void)
 {
+
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX /2;
+	n = rand() - RAND_MAX / 2;
 	if (n == 0)
 	{
 		printf("%d is zero\n", n);
@@ -20,7 +21,7 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if (n > 0)
+	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
