@@ -5,11 +5,12 @@
  * followed by a new line
  */
 void print_alphabet_x10(void)
+
 {
 	char j;
 	int i;
 
-	for(i = 48; i <= 57; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		for (j = 97; j <= 122; j++)
 		{
@@ -17,5 +18,4 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-	
 }
