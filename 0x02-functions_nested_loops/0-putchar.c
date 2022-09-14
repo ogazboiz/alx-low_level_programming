@@ -7,7 +7,7 @@ int main(void)
 {
 	char name[] = "_putchar";
 
-
+:
 	printf("%s\n", name);
 
 	return (0);
